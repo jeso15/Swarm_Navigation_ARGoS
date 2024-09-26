@@ -1,0 +1,5 @@
+add_library(directional_navigation MODULE directional_navigation.h directional_navigation.cpp)
+target_link_libraries(directional_navigation
+  argos3core_simulator
+  argos3plugin_simulator_footbot
+  argos3plugin_simulator_genericrobot)
