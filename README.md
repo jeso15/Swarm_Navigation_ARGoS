@@ -24,7 +24,7 @@ Figure 1: Results of running numerous simulations timing a single robot navigati
 using cooperative swarm navigation, with varying numbers of other bots assisting
 
 The project focuses on recreating and improving the Single Robot Navigation results from the original
-paper[1]. Using the ARGoS simulator[2], we created a swarm of Footbots that communicated
+paper[1]. Using the ARGoS simulator, we created a swarm of Footbots that communicated
 navigational data using IrRB and implemented the navigational algorithm as described by [1]. For
 my initial experiment, the bots were placed in a 4 by 4-meter walled arena, and the range of
 communication was limited to 1.5m to simulate a sparser swarm setup without requiring simulating a
