@@ -18,3 +18,4 @@ unstructured environments. By using a system that relies on real-time communicat
 fixed map, robots can adapt to dynamic environments, and work together without having to coordinate
 complex mapping data.
 
+![image](https://github.com/user-attachments/assets/45fd03d6-f551-4c96-bfc1-e4591df072d1)
