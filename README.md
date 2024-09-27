@@ -18,4 +18,24 @@ unstructured environments. By using a system that relies on real-time communicat
 fixed map, robots can adapt to dynamic environments, and work together without having to coordinate
 complex mapping data.
 
-![image](https://github.com/user-attachments/assets/45fd03d6-f551-4c96-bfc1-e4591df072d1)
+![image](https://github.com/user-attachments/assets/b080982f-ba34-4dcc-b2e2-975c15ac230d)
+
+Figure 1: Results of running numerous simulations timing a single robot navigating an empty room
+using cooperative swarm navigation, with varying numbers of other bots assisting
+
+The project focuses on recreating and improving the Single Robot Navigation results from the original
+paper[1]. Using the ARGoS simulator[2], we created a swarm of Footbots that communicated
+navigational data using IrRB and implemented the navigational algorithm as described by [1]. For
+my initial experiment, the bots were placed in a 4 by 4-meter walled arena, and the range of
+communication was limited to 1.5m to simulate a sparser swarm setup without requiring simulating a
+larger area. A single target robot remains stationary in the top right corner, while a "navigator" (or
+"nav") robot starts in the bottom left. The rest of the arena is filled (randomly and uniformly) with
+assistant bots that wander aimlessly, turning around when they bump into obstacles. In my initial
+experiment, we used the Navigation with Stopping (NwS) algorithm, where the navigator robot
+would stop moving once it reached its last known navigational coordinate. The number of other
+bots was changed between values of 1, 5, 10, 15, and 20, then the time it took for the navigator to
+successfully find the target bot was recorded. (Figure 1)
+While the larger swarms quickly converged on a navigation time of around 1000 ticks (100 seconds),
+the sparser swarm navigation times compose a long-tailed distribution that sometimes took several
+hours to find the target. Additionally, the algorithm was successfully shown to be able to navigate an
+environment with randomly placed obstacles scattered throughout.
