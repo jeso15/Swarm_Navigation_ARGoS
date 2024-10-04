@@ -97,7 +97,8 @@ results at low swarm sizes, taking a shorter time to reach the target and with l
 At larger swarm sizes, particularly in an arena without obstacles, there is never a disconnected enough
 swarm that there is no navigation information, and thus the two algorithms perform identically under
 
-![image](https://github.com/user-attachments/assets/970da477-9f9c-4e98-959e-4000824ca0b5)
+![image](https://github.com/user-attachments/assets/fed8c20c-5ef5-451b-b55a-ceb8198ed733)
+
 
 Figure 3: Diagram showing the 3-part exchange of directional information between a nav robot (A),
 a wandering swarm robot (B) and another robot (T), either representing the actual target or simply
