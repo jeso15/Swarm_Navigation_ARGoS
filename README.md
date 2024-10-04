@@ -95,7 +95,8 @@ Results
 The Navigation with Direction algorithm shows considerable improvement over the baseline NwR
 results at low swarm sizes, taking a shorter time to reach the target and with less variance (Figure 4).
 At larger swarm sizes, particularly in an arena without obstacles, there is never a disconnected enough
-swarm that there is no navigation information, and thus the two algorithms perform identically under
+swarm that there is no navigation information, and thus the two algorithms perform identically under those conditions. This shows that our algorithm does meaningfully improve upon the performance of
+the original algorithm in situations where the spread of navigational information is more sparse. 
 
 ![image](https://github.com/user-attachments/assets/fed8c20c-5ef5-451b-b55a-ceb8198ed733)
 
@@ -103,6 +104,12 @@ swarm that there is no navigation information, and thus the two algorithms perfo
 Figure 3: Diagram showing the 3-part exchange of directional information between a nav robot (A),
 a wandering swarm robot (B) and another robot (T), either representing the actual target or simply
 another link in the chain of bots that is closer to the target.
+
+![image](https://github.com/user-attachments/assets/662f17f3-af2b-4ec2-b197-f3882d77d3e1)
+
+Figure 4: Comparison of our NwD algorithm vs the NwR baseline on two different arenas, one with
+the walls in a plus shape, and an empty arena. Each of the data points represents the average of 100
+trials under that specific combination of arena, algorithm, and swarm size
 
 References
 [1] Ducatelle, F., Di Caro, G.A., Förster, A. et al. Cooperative navigation in robotic swarms. Swarm Intell 8,
