@@ -117,18 +117,24 @@ trials under that specific combination of arena, algorithm, and swarm size
 References
 [1] Ducatelle, F., Di Caro, G.A., Förster, A. et al. Cooperative navigation in robotic swarms. Swarm Intell 8,
 1–33 (2014). https://doi.org/10.1007/s11721-013-0089-4
+
 [2] Carlo Pinciroli, Vito Trianni, Rehan O’Grady, Giovanni Pini, Arne Brutschy, Manuele Brambilla, Nithin
 Mathews, Eliseo Ferrante, Gianni Di Caro, Frederick Ducatelle, Mauro Birattari, Luca Maria Gambardella,
 Marco Dorigo. 2012. ARGoS: a Modular, Parallel, Multi-Engine Simulator for Multi-Robot Systems.
 Swarm Intelligence, volume 6, number 4, pages 271-295. Springer, Berlin, Germany.
+
 [3] Khalil, A. (2017).Swarm robotics: Cooperative navigation in unknown environments [Master’s Thesis, the
 American University in Cairo]. AUC Knowledge Fountain.
+
 [4] Youssefi, K. A. R., Rouhani, M. (2021). Swarm intelligence based robotic search in unknown maze-like
 environments. Expert Systems With Applications, 178, 114907. https://doi.org/10.1016/j.eswa.2021.114907
+
 [5] Junior, L. S., Nedjah, N. (2016). Efficient Strategy for Collective Navigation Control in Swarm Robotics.
 Procedia Computer Science, 80, 814-823. https://doi.org/10.1016/j.procs.2016.05.371
+
 [6] Benavidez, Patrick Nagothu, Kranthimanoj Ray, Anjan Shaneyfelt, Ted Kota, Satyanarayana Be-
 hera, Laxmidhar Jamshidi, Mo. (2008). Multi-domain robotic swarm communication system. 1 - 6.
 10.1109/SYSOSE.2008.4724189.
+
 [7] Calderón-Arce, C.; Brenes-Torres, J.C.; Solis-Ortega, R. Swarm Robotics: Simulators, Platforms and
 Applications Review. Computation 2022, 10, 80. https://doi.org/10.3390/computation10060080
