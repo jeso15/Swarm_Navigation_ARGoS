@@ -57,8 +57,7 @@ except for the walls, and an arena with four sections of wall that form a plus s
 
 ![image](https://github.com/user-attachments/assets/01001145-4d93-4650-8ba3-c45e66e29992)
 
-### Figure 2: Left: The arena layout from the original paper. Right: A screenshot of the recreated arena
-in the Argos simulator. The blue lines show robots that are in range to communicate with each other.
+### Figure 2: Left: The arena layout from the original paper. Right: A screenshot of the recreated arena in the Argos simulator. The blue lines show robots that are in range to communicate with each other.
 
 Three separate areas were picked to improve upon the existing algorithm. The first improvement was to
 add a new variant of the navigational strategy. [1] has shown the performance comparisons between
