@@ -114,7 +114,8 @@ Figure 4: Comparison of our NwD algorithm vs the NwR baseline on two different a
 the walls in a plus shape, and an empty arena. Each of the data points represents the average of 100
 trials under that specific combination of arena, algorithm, and swarm size
 
-References
+## References
+
 [1] Ducatelle, F., Di Caro, G.A., Förster, A. et al. Cooperative navigation in robotic swarms. Swarm Intell 8,
 1–33 (2014). https://doi.org/10.1007/s11721-013-0089-4
 
