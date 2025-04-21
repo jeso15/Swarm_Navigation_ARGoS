@@ -1,4 +1,8 @@
-This project is about cooperative navigation in robotics swarms. The presence of many robots in an
+# Swarm Navigation in Unstructured Enviroment
+
+## Abstract
+
+The presence of many robots in an 
 environment presents unique challenges and opportunities for navigation and can allow for navigation
 without reliance on pre-existing maps or external guidance systems. I focus on a scenario where a
 single robot must locate and navigate toward a target within an environment of randomly moving
@@ -20,7 +24,7 @@ complex mapping data.
 
 ![image](https://github.com/user-attachments/assets/b080982f-ba34-4dcc-b2e2-975c15ac230d)
 
-Figure 1: Results of running numerous simulations timing a single robot navigating an empty room
+### Figure 1: Results of running numerous simulations timing a single robot navigating an empty room
 using cooperative swarm navigation, with varying numbers of other bots assisting
 
 The project focuses on recreating and improving the Single Robot Navigation results from the original
@@ -53,7 +57,7 @@ except for the walls, and an arena with four sections of wall that form a plus s
 
 ![image](https://github.com/user-attachments/assets/01001145-4d93-4650-8ba3-c45e66e29992)
 
-Figure 2: Left: The arena layout from the original paper. Right: A screenshot of the recreated arena
+### Figure 2: Left: The arena layout from the original paper. Right: A screenshot of the recreated arena
 in the Argos simulator. The blue lines show robots that are in range to communicate with each other.
 
 Three separate areas were picked to improve upon the existing algorithm. The first improvement was to
@@ -69,7 +73,7 @@ improvements did not result in improvements to the baseline, so the paper will f
 algorithm for the sake of brevity and the results of the other improvement ideas will be left to the
 appendix. 
 
-Implementing Navigation with Direction
+## Implementing Navigation with Direction
 
 Whenever any bot receives new navigational information, the direction that this data is received
 from is also now stored in the navigation table (and updated as the bot moves). When the nav robot
@@ -90,7 +94,7 @@ additional calculations. Since messages sent with the IrRB equipment are indiscr
 robot will receive directional information from all nearby robots upon making a request; it simply
 ignores any that did not come from the same direction as the original navigation information.
 
-Results
+## Results
 
 The Navigation with Direction algorithm shows considerable improvement over the baseline NwR
 results at low swarm sizes, taking a shorter time to reach the target and with less variance (Figure 4).
